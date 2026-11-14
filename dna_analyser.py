@@ -55,7 +55,7 @@ def gc_content(sequence):
     # Add together the number of guanine (G) and cytosine (C) bases.
     gc_count = counts["G"] + counts["C"]
 
-    # Divide the number of G and C bases by the total length,
+    # Divide the number of G and C bases by the total length
     # then multiply by 100 to convert the result into a percentage.
     return (gc_count / length) * 100
 
